@@ -1,0 +1,68 @@
+* {
+  /* background-color: brown; */
+
+  /* outline: 1px solid red; */
+}
+body {
+  /* outline: 5px solid red; */
+  /* background: #ffffff url("https://media.istockphoto.com/id/1191658515/photo/neon-background-abstract-blue-and-pink-with-light-shapes-line-diagonals.jpg?b=1&s=170667a&w=0&k=20&c=dmT59kRCask04UiZuCNp_GQyI5Ph6XtkcRIdE015b8Q=") no-repeat fixed center; */
+  /* background-image: url("https://media.istockphoto.com/id/1191658515/photo/neon-background-abstract-blue-and-pink-with-light-shapes-line-diagonals.jpg?b=1&s=170667a&w=0&k=20&c=dmT59kRCask04UiZuCNp_GQyI5Ph6XtkcRIdE015b8Q=");
+    background-position: center;
+    background-size: 1000px;
+    background-repeat: no-repeat; */
+}
+
+.p-tag-container {
+  width: 1000px;
+  height: 400px;
+  background-color: pink;
+}
+
+p {
+  display: inline-block;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: lightgreen;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.hi-there {
+  display: inline-block;
+}
+
+.red {
+  border-radius: 500px;
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  padding: 25px 50px 75px 200px;
+  border: 20px dotted green;
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  overflow: scroll;
+  /* outline: 5px solid blue; */
+}
+
+.blue {
+  height: 400px;
+  width: 400px;
+  color: white;
+  background-color: blue;
+}
+
+h1 {
+  height: 400px;
+  text-align: right;
+  font-size: 50px;
+  color: black;
+  text-decoration: none;
+  /* font-style: italic; */
+  font-weight: 900;
+  font-family: monospace;
+  outline: 1px solid red;
+  /* background-color: darkkhaki; */
+}
