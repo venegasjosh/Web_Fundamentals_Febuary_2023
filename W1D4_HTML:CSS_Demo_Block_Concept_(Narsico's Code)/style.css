@@ -1,0 +1,95 @@
+/* utility classes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px dashed red; */
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 50px;
+  aspect-ratio: 1 / 1;
+}
+
+.byline {
+  justify-content: flex-start;
+}
+
+.image-100 {
+  width: 100%;
+}
+
+.mb-small {
+  margin-bottom: 1rem;
+}
+
+.mb-large {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #ee7c0c;
+  border: 0;
+  padding: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* nav classes */
+nav {
+  padding: 10px 0;
+}
+
+.logo,
+.menu {
+  flex: 1;
+}
+
+.menu {
+  list-style: none;
+  justify-content: flex-end;
+}
+
+/* hero classes */
+.hero-headline {
+  margin-bottom: 1rem;
+}
+
+.hero-blurb {
+  margin-bottom: 1rem;
+}
+
+.hero-image {
+  flex: 2;
+}
+
+.hero-copy {
+  flex: 3;
+}
+
+/* feature classes */
+
+.feature {
+  min-height: 300px;
+  flex: 1;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+/* footer classes */
+footer {
+  min-height: 50px;
+}
